@@ -1,0 +1,26 @@
+#wrapper {
+  width: 275px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 3px 3px 3px 3px;
+  border: 2px solid #000304;
+  text-align: center;
+  font-weight: bold;
+  background-color: #A6E7AB;
+}
+
+img {
+  height: 60px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+input[type=button] {
+  width: 100px;
+  background-color: #C4CDCE;
+  font-weight: bold;
+}
+
+ 
