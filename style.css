@@ -20,10 +20,10 @@ a:active {
 }
 body {
     font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
-    background-color: #eace00;
+    background-color: #FFFEFF;
 }
 #footer {
-    margin:2px; background:#0a0f9e; color:#ffdb17;text-align:center;font-size:x-small;
+    margin:2px; background:#FFFEFF; color:#ffdb17;text-align:center;font-size:x-small;
     }
 label {
      float:left;
@@ -34,12 +34,11 @@ label {
     width:300px;
     margin:20px auto;
     padding:20px;
-    border-radius: 5px 5px 5px 5px;
-    box-shadow: inset 4px 4px 4px 4px;
-    border: 15px solid #2596be;
+    border-radius: 2px 2px 2px 2px;
+    border: 15px solid #FC43E7;
 }
 h1 {
-    color: #2596be;
+    color: #FC43E7;
     margin: 10px 0 20px 0;
     padding: 0;
     font-size: 24px;
@@ -53,8 +52,8 @@ input#remove {
     float:right;
     margin-bottom:20px;
     margin-right:5px;
-    background-color: #0a0f9e;
-     color: #ffffff;
+    background-color: #FFFEFF;
+     color: #FC43E7;
      font-size:smaller;
       width: 65px;
 }
@@ -64,8 +63,8 @@ input#adds {
     margin-right:5px;
     margin-left:10px;
      margin-top:5px;
-    background-color: #f44165;
-     color: #FFFFFF;
+    background-color: #FFFEFF;
+     color: #FC43E7;
       font-size:smaller;
 }
 input[type=checkbox] {
@@ -77,8 +76,8 @@ input[type=button] {
     margin-bottom:10px;
     margin-right:1,5;
     margin-left:10px;
-    background-color: #0a0f9e;
-    color: #FFFFFF;
+    background-color: #FFFEFF;
+    color: #FC43E7;
     width: 60px;
 }
 ul {
@@ -89,11 +88,11 @@ ul {
     clear:both;
 }
 li {
-    background: #ccc;
+    background: #FFFEFF;
     margin:5px 0px;
     line-height:1.6;
     padding:10px;
-    border:#2596be solid 1px;
+    border:#FC43E7 solid 1px;
 }
 li:nth-child(odd) {
     background: #ccc;
@@ -116,8 +115,8 @@ form a {
     white-space: nowrap;
     background-color: #2E8B57;
     background-image: -moz-linear-gradient(center top, #4BC380, #2E8B57);
-    border: 1px solid #2596be;
-    color: #FFFFFF;
+    border: 1px solid #FC43E7;
+    color: #FFFEFF;
     text-shadow: 0 -1px 0 #1D5837;
 }
 form a:hover {
@@ -128,32 +127,32 @@ form a:hover {
     text-shadow: 0 -1px 0 #1D5837;
 }
 #labels {
-     margin:2px; background:#0a0f9e; color:#ffffff;text-align:center;font-size:small;
+     margin:2px; background:#FFFEFF; color:#FC43E7;text-align:center;font-size:small;
 }
 }
 form a:active {
-    border-color: #1D5837;
-    color: #FFFFFF;
+    border-color: #FC43E7;
+    color: #FFFEFF;
     text-shadow: none;
 }
 form a.delete {
     background-color: #CD0000;
     background-image: -moz-linear-gradient(center top, #FF2323, #CD0000);
-    border: 1px solid #890000;
-    color: #FFFFFF;
-    text-shadow: 0 -1px 0 #890000;
+    border: 1px solid #FC43E7;
+    color: #FFFEFF;
+    text-shadow: 0 -1px 0 #FC43E7;
     margin-top:0px;
     height:17px;
 }
 form a.delete:hover {
     background-color: #FF5656;
     background-image: -moz-linear-gradient(center top, #FF5656, #CD0000);
-    border: 1px solid #890000;
-    color: #FFFFFF;
-    text-shadow: 0 -1px 0 #890000;
+    border: 1px solid #FC43E7;
+    color: #FFFEFF;
+    text-shadow: 0 -1px 0 #FC43E7;
 }
 form a.delete:active {
-    border-color: #890000;
-    color: #FFFFFF;
+    border-color: #FC43E7;
+    color: #FFFEFF;
     text-shadow: none;
 }
