@@ -35,7 +35,7 @@ label {
     margin:20px auto;
     padding:20px;
     border-radius: 2px 2px 2px 2px;
-    border: 15px solid #FC43E7;
+    border: 10px solid linear-gradient(to right, #47FFC8, #B846CF);
 }
 h1 {
     color: #FC43E7;
