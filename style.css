@@ -19,7 +19,7 @@ a:active {
     color: white;
 }
 body {
-    font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font: 14px/21px"Avantgarde", "Tex Gyre Adventor", "URW Gothic L", sans-serif;
     background-color: #000000;
 }
 #footer {
@@ -35,7 +35,7 @@ label {
     margin:20px auto;
     padding:20px;
     border-radius: 2px 2px 2px 2px;
-    border: 8px solid #47ffc8;
+    border: 4px solid #47ffc8;
     background:#000000;
 }
 h1 {
