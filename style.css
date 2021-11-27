@@ -2,7 +2,7 @@
     outline: none;
 }
 a:link {
-    color: #B846CF;
+    color: white;
 }
 /* visited link */
 a:visited {
@@ -16,14 +16,14 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #B846CF;
+    color: white;
 }
 body {
-    font: 14px/21px"Avantgarde", "Tex Gyre Adventor", "URW Gothic L", sans-serif;
-    background-color: #000000;
+    font: 14px/21px"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    background-color: #eace00;
 }
 #footer {
-    margin:2px; background:#47FFC8; color:#B846CF;text-align:center;font-size:x-small;
+    margin:2px; background:#0a0f9e; color:#ffdb17;text-align:center;font-size:x-small;
     }
 label {
      float:left;
@@ -34,12 +34,12 @@ label {
     width:300px;
     margin:20px auto;
     padding:20px;
-    border-radius: 2px 2px 2px 2px;
-    border: 2px solid #47ffc8;
-    background:#000000;
+    border-radius: 5px 5px 0 0;
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.3), 0 0 5px rgba(0, 0, 0, .3);
+    border: 1px solid #6f212f;
 }
 h1 {
-    color: #47FFC8;
+    color: #222;
     margin: 10px 0 20px 0;
     padding: 0;
     font-size: 24px;
@@ -53,8 +53,8 @@ input#remove {
     float:right;
     margin-bottom:20px;
     margin-right:5px;
-    background-color: #FFFEFF;
-     color: #B846CF;
+    background-color: #0a0f9e;
+     color: #ffffff;
      font-size:smaller;
       width: 65px;
 }
@@ -64,8 +64,8 @@ input#adds {
     margin-right:5px;
     margin-left:10px;
      margin-top:5px;
-    background-color: #FFFEFF;
-     color: #B846CF;
+    background-color: #f44165;
+     color: #FFFFFF;
       font-size:smaller;
 }
 input[type=checkbox] {
@@ -77,8 +77,8 @@ input[type=button] {
     margin-bottom:10px;
     margin-right:1,5;
     margin-left:10px;
-    background-color: #FFFEFF;
-    color: #B846CF;
+    background-color: #0a0f9e;
+    color: #FFFFFF;
     width: 60px;
 }
 ul {
@@ -89,14 +89,14 @@ ul {
     clear:both;
 }
 li {
-    background: #FFFEFF;
+    background: #ccc;
     margin:5px 0px;
     line-height:1.6;
     padding:10px;
-    border: #47FFC8 solid 1px;
+    border:#222 solid 1px;
 }
 li:nth-child(odd) {
-    background: #47FFC8;
+    background: #ccc;
 }
 li a {
     font-size:small;
@@ -114,42 +114,46 @@ form a {
     padding:0.3em 0.3em 0 0.3em;
     text-decoration: none;
     white-space: nowrap;
-    background-color: #47FFC8;
-    background-image: -moz-linear-gradient(center top, #47FFC8, #B846CF);
-    border: 1px solid #47FFC8;
-    color: #B846CF;
+    background-color: #2E8B57;
+    background-image: -moz-linear-gradient(center top, #4BC380, #2E8B57);
+    border: 1px solid #1D5837;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #1D5837;
 }
 form a:hover {
-    background-color: #47FFC8;
-    background-image: -moz-linear-gradient(center top, #47FFC8, #B846CF);
-    border: 1px solid #47FFC8;
-    color: #B846CF;
+    background-color: #71D09B;
+    background-image: -moz-linear-gradient(center top, #71D09B, #2E8B57);
+    border: 1px solid #1D5837;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #1D5837;
 }
 #labels {
-     margin:2px; background:#47FFC8; color:#B846CF;text-align:center;font-size:small;
+     margin:2px; background:#0a0f9e; color:#ffffff;text-align:center;font-size:small;
 }
 }
 form a:active {
-    border-color: #47FFC8;
-    color: #B846CF;
+    border-color: #1D5837;
+    color: #FFFFFF;
     text-shadow: none;
 }
 form a.delete {
-    background-color: #47FFC8;
-    background-image: -moz-linear-gradient(center top, #47FFC8, #B846CF);
-    border: 1px solid #47FFC8;
-    color: #B846CF;
+    background-color: #CD0000;
+    background-image: -moz-linear-gradient(center top, #FF2323, #CD0000);
+    border: 1px solid #890000;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #890000;
     margin-top:0px;
     height:17px;
 }
 form a.delete:hover {
-    background-color: #47FFC8;
-    background-image: -moz-linear-gradient(center top, #47FFC8, #B846CF);
-    border: 1px solid #47FFC8;
-    color: #B846CF;
+    background-color: #FF5656;
+    background-image: -moz-linear-gradient(center top, #FF5656, #CD0000);
+    border: 1px solid #890000;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 #890000;
 }
 form a.delete:active {
-    border-color: #47FFC8;
-    color: #B846CF;
+    border-color: #890000;
+    color: #FFFFFF;
     text-shadow: none;
 }
