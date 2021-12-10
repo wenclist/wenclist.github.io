@@ -25,7 +25,7 @@ function get(name){
 function passlist()
 {
  var url = "https://rvclist.github.io/rvclist15/index.html?list="+ shoppinglist;
-    var accessToken = "42b98acf810b1d5cb40024565ce6abf5b4e5437d";
+    var accessToken = "ad6c184581adec43c33e394ec27372a864e76425";
 
     var params = {
         "long_url" : url           
