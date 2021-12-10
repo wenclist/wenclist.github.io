@@ -25,7 +25,7 @@ function get(name){
 function passlist()
 {
  var url = "https://wenclist.github.io/index.html?list="+ shoppinglist;
-    var accessToken = "ad6c184581adec43c33e394ec27372a864e76425";
+    var accessToken = "9ad6f2d521987488d07a0da0212bd69a0c927eb9";
 
     var params = {
         "long_url" : url           
